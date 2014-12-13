@@ -18,6 +18,7 @@ An ambitious project idea I dreamt up while hiking in the [beautiful mountains o
 - Figure out what a GPS signal "looks like" given that both the satellite and receiver are move.
   - Need to estimate how long the transmission takes to arrive. It travels through both space and the atmosphere.
   - Timing is especially important because it's used for [trilateration](https://en.wikipedia.org/wiki/Trilateration) so a few milliseconds could make big differences in accuracy.
+  - Note that the satellite, the Earth, and the GPS receiver are moving.
   - Might need to take into account the Doppler effect and/or [general and special relativity](http://www.astronomy.ohio-state.edu/~pogge/Ast162/Unit5/gps.html).
 - Sum the generated signals (again, [GNU Radio](http://gnuradio.org/)) for the whole trip and put it through a [USRP](https://en.wikipedia.org/wiki/Universal_Software_Radio_Peripheral) ($$$$$)
   - I'll probably want to do this in a Faraday cage so I don't [commit any felonies](http://www.cnet.com/news/truck-driver-has-gps-jammer-accidentally-jams-newark-airport/).
@@ -27,3 +28,4 @@ I'm looking for a play on the idea that this project "moves the Earth" around th
 
 - Aristarchus (first astronomer to realize the Earth moves around the Sun and not the other way around)
 - Some reference to Carole King ([I love this song](https://www.youtube.com/watch?v=wbQ4m-NqeF8))
+- Gjende/Besseggen (The lake and mountain that I think was hiking on when I came up with this project)
